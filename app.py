@@ -25,7 +25,7 @@ class App:
     # widgets placement
     
     # pack frames
-    self.main_frame.pack(side="left", expand=1)
+    self.main_frame.pack(fill="both")
     
   def close_window(self):
     self.root.destroy()
